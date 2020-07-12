@@ -9,7 +9,7 @@ user_a_farhadi:
     - groups:
       - ramin
 
-r_afshari_key:
+a_farhadi_key:
   ssh_auth.present:
     - name: a.farhadi
     - user: a.farhadi
