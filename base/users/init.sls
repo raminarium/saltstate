@@ -9,7 +9,9 @@ user_{{ user }}:
     - gid_from_name: {{ data['gid_from_name'] }}
     - groups: {{ data['groups'] }}
 
-  {{ user }}_key:
-    ssh_auth:present:
-      - name: {{ data['ssh_key'] }}
-      - user: {{ user }}
+{{ user }}_key:
+  ssh_auth:present:
+    - name: {{ data['ssh_key'] }}
+    - user: {{ user }}
+
+{% endfor %}
