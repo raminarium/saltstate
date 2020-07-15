@@ -2,6 +2,7 @@ admin_users:
   ramin:
     fullname: Ramin Afshari
     shell: /bin/bash
+    home: /home/ramin
     uid: 10001
     gid_frome_name: true
     groups:
@@ -10,6 +11,7 @@ admin_users:
   amir:
     fullname: Amir Jahanshahi
     shell: /bin/bash
+    home: /home/amir
     uid: 10002
     gid_frome_name: true
     groups:
@@ -18,6 +20,7 @@ admin_users:
   seyedi:
     fullname: Mir Akbar Seyedi
     shell: /bin/bash
+    home: /home/seyedi
     uid: 10003
     gid_frome_name: true
     groups: []
@@ -25,6 +28,7 @@ admin_users:
   farsi:
     fullname: Reza Farsi
     shell: /bin/bash
+    home: /home/farsi
     uid: 10004
     gid_frome_name: true
     groups: []
