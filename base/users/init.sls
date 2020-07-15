@@ -6,7 +6,7 @@ user_{{ user }}:
     - shell: {{ data['shell'] }}
     - home: {{ data['home'] }}
     - uid: {{ data['uid'] }}
-    - groups: {{ data['groups'] }}
+    - usergroup: {{ data['groups'] }}
 
 {{ user }}_key:
   ssh_auth.present:
