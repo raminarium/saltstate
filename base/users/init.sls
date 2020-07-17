@@ -3,6 +3,3 @@ users_ramin_user:
     - name: ramin 
     - home: /home/ramin
     - shell: /bin/bash
-    - groups:
-      - sudo
-      - adm
