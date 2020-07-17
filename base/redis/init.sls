@@ -1,6 +1,6 @@
 redis:
   cmd.run:
-    - name: |
+    - name: rediscompile
       cd /tmp
       wget -c http://download.redis.io/redis-stable.tar.gz
       tar xvf resdi-stable.tar.gz
