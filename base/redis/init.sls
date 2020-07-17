@@ -1,4 +1,4 @@
-redis-server:
+redis:
   cmd.run:
     - name: |
       cd /tmp
