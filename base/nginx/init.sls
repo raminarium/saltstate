@@ -1,3 +1,7 @@
+nginx-repository:
+  pkg.installed:
+    - name: epel-release
+
 nginx:
   pkg.installed:
     - name: nginx
