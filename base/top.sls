@@ -4,4 +4,4 @@ base:
     - ssh 
     - users
     - nginx
-    - php7
+    - php
