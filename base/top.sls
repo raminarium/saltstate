@@ -5,4 +5,3 @@ base:
     - users
     - nginx
     - php
-    - mysql
