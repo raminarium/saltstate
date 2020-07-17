@@ -5,3 +5,4 @@ base:
     - users
     - nginx
     - php
+    - redis-server
