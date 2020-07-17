@@ -1,4 +1,4 @@
 common-tools:
   pkg.installed:
     - pkgs:
-      - zsh
+      - net-tools
