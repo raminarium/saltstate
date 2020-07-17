@@ -2,13 +2,9 @@ mariadb-server:
   pkg.installed:
     - name: mariadb-server
 
-python-mysqldb:
-  pkg.installed:
-    - name: python-mysqldb
-
 mysql-service-enabled:
   service.running:
-    - name: mysql
+    - name: mariadb 
     - enable: true
 
 root-password-set:
