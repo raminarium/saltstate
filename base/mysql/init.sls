@@ -14,7 +14,6 @@ root-password-set:
     - connection_user: root
     - require:
       - pkg: mariadb-server
-      - pkg: python-mysqldb
 
 root-password-flush:
   mysql_query.run:
@@ -23,4 +22,3 @@ root-password-flush:
     - connection_user: root
     - require:
       - pkg: mariadb-server
-      - pkg: python-mysqldb
