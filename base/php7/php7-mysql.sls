@@ -1,3 +1,3 @@
 php7-mysql:
-  pkg,installed:
+  pkg.installed:
     - name: php7.0-mysql
