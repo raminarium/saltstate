@@ -1,3 +1,0 @@
-mysql:
-  lookup:
-    rootDBPassword: qazwsx
