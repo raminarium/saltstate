@@ -8,7 +8,7 @@ mysql-service-enabled:
     - enable: true
 
 root-password-set:
-  mysql_query.run
+  mysql_query.run:
     - database: mysql
     - query: UPDATE user SET Password=PASSWORD('{{ salt['pillar.get']('mysql:lookup:rootDBPassword') }}') WHERE User='rootDBPassword';
     - connection_user: root
@@ -16,7 +16,7 @@ root-password-set:
       - pkg: mariadb-server
 
 root-password-flush:
-  mysql_query.run
+  mysql_query.run:
     - database: mysql
     - query: FLUSH PRIVILEGES;
     - connection_user: root
