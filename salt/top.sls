@@ -1,5 +1,0 @@
-base:
-  '*':
-    - common
-    - ssh 
-    - users
